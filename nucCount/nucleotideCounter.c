@@ -54,8 +54,7 @@ int * baseCounter(char *bases) {
 	return count;
 }
 
-int main(int argc, char const *argv[])
-{
+int main(int argc, char const *argv[]) {
 	char dna[1000];
 	int *counter;
 

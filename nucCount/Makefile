@@ -1,11 +1,13 @@
-default: program
-
-nucCount.o:
+nucCountC.o:
 	gcc -c nucleotideCounter.c -o nucleotideCounter.o
 
-nucCount: nucCount.o
-	gcc nucleotideCounter.o -o nucleotideCounter
+nucCountC: nucCount.o
+	gcc nucleotideCounter.o -o nucleotideCounterC
+
+nucCountCpp:
+	c++ nucleotideCounter.cpp -o nucleotideCounterCpp
 
 clean: 
 	-rm -f nucleotideCounter.o
-	-rm -f nucleotideCounter
+	-rm -f nucleotideCounterC
+	-rm -f nucleotideCounterCpp
