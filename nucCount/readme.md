@@ -12,7 +12,7 @@ The only four option for nucleobase molecules are adenine (A), cytosine (C), gua
 and Thymine (T).
 
 Problem: Given, a DNA string "dna", where dna <= (1000 nucleobase molecules), return
-four integers in a list, where each index represents "A", "C", "G", and "T", in that order.
+four integers in a list (or with spaces between them), where each index represents "A", "C", "G", and "T", in that order.
 
 Solutions:
 - C: Incomplete
