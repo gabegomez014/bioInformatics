@@ -7,7 +7,11 @@ nucCountC: nucCount.o
 nucCountCpp:
 	c++ nucleotideCounter.cpp -o nucleotideCounterCpp
 
+nucCountJava:
+	javac nucleotideCounter.java
+
 clean: 
 	-rm -f nucleotideCounter.o
 	-rm -f nucleotideCounterC
 	-rm -f nucleotideCounterCpp
+	-rm -f nucleotideCounter.class
