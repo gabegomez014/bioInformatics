@@ -20,7 +20,7 @@ Solutions:
 
 	- C: Complete
 	- C++: Complete
-	- Java: Incomplete
+	- Java: Complete
 	- Python: Incomplete
 
 How to run:
