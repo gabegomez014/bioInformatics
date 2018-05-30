@@ -15,7 +15,7 @@ Problem: Given, a DNA string "dna", where dna <= (1000 nucleobase molecules), re
 four integers in a list (or with spaces between them), where each index represents "A", "C", "G", and "T", in that order.
 
 Solutions:
-- C: Incomplete
+- C: Complete
 - C++: Incomplete
 - Java: Incomplete
 - Python: Incomplete
