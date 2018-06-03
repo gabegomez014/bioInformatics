@@ -21,7 +21,7 @@ Solutions:
 	- C: Complete
 	- C++: Complete
 	- Java: Complete
-	- Python: Incomplete
+	- Python: Complete
 
 How to run:
 
