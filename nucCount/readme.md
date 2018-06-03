@@ -34,9 +34,9 @@ How to run:
 	- C: X = C
 	- C++: X = Cpp
 	- Java: X = Java
-	- Python: X = Py
 
 	*Note: For C, you have to make the ".o" file first. To do this, simply type "make nucCountC.o"
+	*Note: For Python files, simply type "python3 nucleotideCounter.py"
 
 Clean:
 
