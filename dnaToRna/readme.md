@@ -16,7 +16,7 @@ Problem:
 
 Solutions:
 
-	- C: Incomplete
+	- C: Complete
 	- C++: Incomplete
 	- Java: Incomplete
 	- Python: Incomplete
