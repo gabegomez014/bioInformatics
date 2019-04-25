@@ -18,7 +18,7 @@ Solutions:
 
 	- C: Complete
 	- C++: Incomplete
-	- Java: Incomplete
+	- Java: Complete
 	- Python: Incomplete
 
 How to run:
@@ -38,4 +38,4 @@ How to run:
 
 Clean:
 
-	To remove files .o files and executables, simply type "make clean". This will not delete the code files
+	To remove files, .o files and executables, simply type "make clean". This will not delete the code files

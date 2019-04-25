@@ -16,7 +16,7 @@ Found this function on StackOverflow:
 https://stackoverflow.com/questions/32496497/standard-function-to-replace-character-or-substring-in-a-char-array
 */
 
-char* replace_char(char* str, char find, char replace){
+char* ToRna(char* str, char find, char replace){
     char *current_pos = strchr(str,find);
     while (current_pos){
         *current_pos = replace;
@@ -37,7 +37,7 @@ int main(int argc, char const *argv[]) {
 	// strRes = replace_char(str, 'a', 'b');
 	printf("The str results is:\n");
 
-	printf("%s\n", replace_char(str, 'T', 'U'));
+	printf("%s\n", ToRna(str, 'T', 'U'));
 
 	return 0;
 }

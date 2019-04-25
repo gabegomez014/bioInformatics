@@ -4,10 +4,10 @@ DnaToRna.o:
 DnaToRna: DnaToRna.o
 	gcc DnaToRna.o -o DnaToRna
 
-nucCountCpp:
+DnaToRnaCpp:
 	c++ DnaToRna.cpp -o DnaToRnaCpp
 
-nucCountJava:
+DnaToRnaJava:
 	javac DnaToRna.java
 
 clean: 
